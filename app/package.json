@@ -2,7 +2,7 @@
     "name": "gatsby-starter-hello-world",
     "private": true,
     "description": "A simplified bare-bones starter for Gatsby",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "scripts": {
         "build": "gatsby build",
