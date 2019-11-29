@@ -7,10 +7,9 @@
     "scripts": {
         "build": "gatsby build",
         "clean": "gatsby clean",
-        "dev": "gatsby develop",
+        "start": "gatsby develop",
         "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
         "serve": "gatsby serve",
-        "start": "npm run develop",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
     "dependencies": {
