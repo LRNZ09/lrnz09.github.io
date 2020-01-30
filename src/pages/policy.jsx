@@ -2,11 +2,10 @@ import React from 'react'
 
 import Page from '../components/Page'
 
-const ClickToChat = () => (
+const Policy = () => (
     <Page>
-        <h1>Click to Chat</h1>
-
         <h2>Privacy Policy</h2>
+
         <p>
             Your privacy is important to us. It is LRNZ09's policy to respect
             your privacy regarding any information we may collect from you
@@ -52,4 +51,4 @@ const ClickToChat = () => (
     </Page>
 )
 
-export default ClickToChat
+export default Policy

@@ -7,9 +7,10 @@
     "scripts": {
         "build": "gatsby build",
         "clean": "gatsby clean",
-        "start": "gatsby develop",
+        "deploy": "gh-pages  -a -t -b master -d public",
         "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
         "serve": "gatsby serve",
+        "start": "gatsby develop",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
     "dependencies": {
