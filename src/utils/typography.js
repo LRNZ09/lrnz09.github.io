@@ -1,5 +1,5 @@
 import Typography from 'typography'
-import typographyTheme from 'typography-theme-doelger'
+import typographyTheme from 'typography-theme-moraga'
 
 typographyTheme.overrideThemeStyles = () => ({
     'h1,h2,h3': {

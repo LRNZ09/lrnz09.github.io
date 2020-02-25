@@ -1,7 +1,7 @@
 {
-    "name": "gatsby-starter-hello-world",
+    "name": "lrnz09.github.io",
     "private": true,
-    "description": "A simplified bare-bones starter for Gatsby",
+    "description": "My personal website",
     "version": "0.2.1",
     "license": "MIT",
     "scripts": {
@@ -25,7 +25,7 @@
         "reflexbox": "^4.0.6",
         "styled-components": "^5.0.0",
         "typography": "^0.16.19",
-        "typography-theme-doelger": "^0.16.19"
+        "typography-theme-moraga": "^0.16.19"
     },
     "devDependencies": {
         "gh-pages": "^2.2.0",
@@ -33,9 +33,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+        "url": "https://github.com/LRNZ09/lrnz09.github.io"
     },
     "bugs": {
-        "url": "https://github.com/gatsbyjs/gatsby/issues"
+        "url": "https://github.com/LRNZ09/lrnz09.github.io/issues"
     }
 }
