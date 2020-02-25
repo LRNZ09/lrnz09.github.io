@@ -1,16 +1,13 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 
 import Page from '../components/Page'
 
-const Terms = () => (
-    <>
-        <Helmet>
-            <title>Terms of Service</title>
-        </Helmet>
+const TermsPage = () => {
+    const title = 'Terms of Service'
 
-        <Page>
-            <h2>Terms of Service</h2>
+    return (
+        <Page title={title}>
+            <h2>{title}</h2>
 
             <h3>1. Terms</h3>
             <p>
@@ -124,7 +121,7 @@ const Terms = () => (
                 location.
             </p>
         </Page>
-    </>
-)
+    )
+}
 
-export default Terms
+export default TermsPage

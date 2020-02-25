@@ -1,16 +1,13 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 
 import Page from '../components/Page'
 
-const PrivacyPolicy = () => (
-    <>
-        <Helmet>
-            <title>Privacy Policy</title>
-        </Helmet>
+const PrivacyPolicyPage = () => {
+    const title = 'Privacy Policy'
 
-        <Page>
-            <h2>Privacy Policy</h2>
+    return (
+        <Page title={title}>
+            <h2>{title}</h2>
 
             <p>
                 Your privacy is important to us. It is LRNZ09's policy to
@@ -55,7 +52,7 @@ const PrivacyPolicy = () => (
             </p>
             <p>This policy is effective as of 1 January 2020.</p>
         </Page>
-    </>
-)
+    )
+}
 
-export default PrivacyPolicy
+export default PrivacyPolicyPage
