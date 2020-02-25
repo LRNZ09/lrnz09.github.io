@@ -2,7 +2,7 @@
     "name": "lrnz09.github.io",
     "private": true,
     "description": "My personal website",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "license": "MIT",
     "scripts": {
         "clean": "gatsby clean",
