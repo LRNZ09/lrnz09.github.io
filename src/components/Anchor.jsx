@@ -2,6 +2,6 @@
 
 import styled from '@xstyled/styled-components'
 
-const Text = styled.pBox``
+const Anchor = styled.aBox``
 
-export default Text
+export default Anchor
