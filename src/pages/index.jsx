@@ -1,12 +1,12 @@
 /** @format */
 
 import { Box } from '@xstyled/styled-components'
-import { Linkedin, Medium, Twitter } from 'grommet-icons'
+import { Instagram, Linkedin, Medium, Twitter } from 'grommet-icons'
 import React from 'react'
 
+import Anchor from '../components/Anchor'
 import Page from '../components/Page'
 import Text from '../components/Text'
-import Anchor from '../components/Anchor'
 
 const HomePage = () => (
 	<Page>
@@ -23,8 +23,13 @@ const HomePage = () => (
 
 				<Text forwardedAs="h4">Work</Text>
 				<Text>
-					I'm currently working as a developer for{' '}
-					<Text forwardedAs="a" href="//tate.it" target="_blank">
+					I'm currently working as a software developer for{' '}
+					<Text
+						forwardedAs="a"
+						href="//tate.it"
+						rel="noopener"
+						target="_blank"
+					>
 						Tate
 					</Text>
 					.
@@ -38,9 +43,9 @@ const HomePage = () => (
 					meet, asking for advice.
 				</Text>
 
-				<Box row>
-					<Box mr={32}>
-						<Text forwardedAs="h4">Mail</Text>
+				<Box row m={-24}>
+					<Box p={24}>
+						<Text forwardedAs="h4">Email</Text>
 
 						<Text
 							forwardedAs="a"
@@ -50,12 +55,21 @@ const HomePage = () => (
 						</Text>
 					</Box>
 
-					<Box>
+					<Box p={24}>
 						<Text forwardedAs="h4">Social</Text>
 
 						<Anchor
+							href="//instagram.com/lrnz09"
+							mr={4}
+							rel="noopener"
+							target="_blank"
+						>
+							<Instagram />
+						</Anchor>
+						<Anchor
 							href="//linkedin.com/in/lrnz09"
 							mr={4}
+							rel="noopener"
 							target="_blank"
 						>
 							<Linkedin />
@@ -64,13 +78,14 @@ const HomePage = () => (
 							href="//medium.com/@LRNZ09"
 							mr={4}
 							target="_blank"
+							rel="noopener"
 						>
 							<Medium />
 						</Anchor>
 						<Anchor
 							href="//twitter.com/LRNZ09"
-							mr={4}
 							target="_blank"
+							rel="noopener"
 						>
 							<Twitter />
 						</Anchor>
