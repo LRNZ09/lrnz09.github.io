@@ -1,7 +1,7 @@
 /** @format */
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Box } from '@xstyled/styled-components'
-import { Instagram, Linkedin, Medium, Twitter } from 'grommet-icons'
 import React from 'react'
 
 import Anchor from '../components/Anchor'
@@ -12,8 +12,8 @@ const HomePage = () => (
 	<Page>
 		<Text forwardedAs="h1">Hello</Text>
 
-		<Box row m={-24}>
-			<Box col={{ xs: 1, md: 1 / 2 }} p={24} m={0}>
+		<Box row m={-16}>
+			<Box col={{ xs: 1, md: 1 / 2 }} p={16} m={0}>
 				<Text forwardedAs="h2">Bio</Text>
 
 				<Text>
@@ -36,15 +36,15 @@ const HomePage = () => (
 				</Text>
 			</Box>
 
-			<Box col={{ xs: 1, md: 1 / 2 }} p={24} m={0}>
+			<Box col={{ xs: 1, md: 1 / 2 }} p={16} m={0}>
 				<Text forwardedAs="h2">Contact me</Text>
 				<Text>
 					Reasons to get in touch: discuss about crazy ideas, just
 					meet, asking for advice.
 				</Text>
 
-				<Box row m={-24}>
-					<Box p={24}>
+				<Box row m={-16}>
+					<Box p={16}>
 						<Text forwardedAs="h4">Email</Text>
 
 						<Text
@@ -55,16 +55,32 @@ const HomePage = () => (
 						</Text>
 					</Box>
 
-					<Box p={24}>
+					<Box p={16}>
 						<Text forwardedAs="h4">Social</Text>
 
+						<Anchor
+							href="//dribbble.com/LRNZ09"
+							mr={4}
+							rel="noopener"
+							target="_blank"
+						>
+							<FontAwesomeIcon icon={['fab', 'dribbble']} />
+						</Anchor>
 						<Anchor
 							href="//instagram.com/lrnz09"
 							mr={4}
 							rel="noopener"
 							target="_blank"
 						>
-							<Instagram />
+							<FontAwesomeIcon icon={['fab', 'instagram']} />
+						</Anchor>
+						<Anchor
+							href="//www.last.fm/user/LRNZ09"
+							mr={4}
+							rel="noopener"
+							target="_blank"
+						>
+							<FontAwesomeIcon icon={['fab', 'lastfm-square']} />
 						</Anchor>
 						<Anchor
 							href="//linkedin.com/in/lrnz09"
@@ -72,7 +88,7 @@ const HomePage = () => (
 							rel="noopener"
 							target="_blank"
 						>
-							<Linkedin />
+							<FontAwesomeIcon icon={['fab', 'linkedin']} />
 						</Anchor>
 						<Anchor
 							href="//medium.com/@LRNZ09"
@@ -80,14 +96,14 @@ const HomePage = () => (
 							target="_blank"
 							rel="noopener"
 						>
-							<Medium />
+							<FontAwesomeIcon icon={['fab', 'medium']} />
 						</Anchor>
 						<Anchor
 							href="//twitter.com/LRNZ09"
 							target="_blank"
 							rel="noopener"
 						>
-							<Twitter />
+							<FontAwesomeIcon icon={['fab', 'twitter']} />
 						</Anchor>
 					</Box>
 				</Box>

@@ -11,6 +11,9 @@
         "start": "gatsby develop"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.27",
+        "@fortawesome/free-brands-svg-icons": "^5.12.1",
+        "@fortawesome/react-fontawesome": "^0.1.8",
         "@xstyled/styled-components": "^1.17.0",
         "babel-plugin-styled-components": "^1.10.7",
         "gatsby": "^2.19.22",
