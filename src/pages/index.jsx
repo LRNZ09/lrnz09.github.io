@@ -1,10 +1,10 @@
 /** @format */
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Box } from '@xstyled/styled-components'
 import React from 'react'
 
 import Anchor from '../components/Anchor'
+import Icon from '../components/Icon'
 import Page from '../components/Page'
 import Text from '../components/Text'
 
@@ -64,7 +64,7 @@ const HomePage = () => (
 							rel="noopener"
 							target="_blank"
 						>
-							<FontAwesomeIcon icon={['fab', 'dribbble']} />
+							<Icon name="dribbble" />
 						</Anchor>
 						<Anchor
 							href="//instagram.com/lrnz09"
@@ -72,7 +72,7 @@ const HomePage = () => (
 							rel="noopener"
 							target="_blank"
 						>
-							<FontAwesomeIcon icon={['fab', 'instagram']} />
+							<Icon name="instagram" />
 						</Anchor>
 						<Anchor
 							href="//www.last.fm/user/LRNZ09"
@@ -80,7 +80,7 @@ const HomePage = () => (
 							rel="noopener"
 							target="_blank"
 						>
-							<FontAwesomeIcon icon={['fab', 'lastfm-square']} />
+							<Icon name="lastfm-square" />
 						</Anchor>
 						<Anchor
 							href="//linkedin.com/in/lrnz09"
@@ -88,7 +88,7 @@ const HomePage = () => (
 							rel="noopener"
 							target="_blank"
 						>
-							<FontAwesomeIcon icon={['fab', 'linkedin']} />
+							<Icon name="linkedin" />
 						</Anchor>
 						<Anchor
 							href="//medium.com/@LRNZ09"
@@ -96,14 +96,14 @@ const HomePage = () => (
 							target="_blank"
 							rel="noopener"
 						>
-							<FontAwesomeIcon icon={['fab', 'medium']} />
+							<Icon name="medium" />
 						</Anchor>
 						<Anchor
 							href="//twitter.com/LRNZ09"
 							target="_blank"
 							rel="noopener"
 						>
-							<FontAwesomeIcon icon={['fab', 'twitter']} />
+							<Icon name="twitter" />
 						</Anchor>
 					</Box>
 				</Box>
