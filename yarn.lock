@@ -5164,18 +5164,6 @@ gray-percentage@^2.0.0:
   resolved "https://registry.yarnpkg.com/gray-percentage/-/gray-percentage-2.0.0.tgz#b72a274d1b1379104a0050b63b207dc53fe56f99"
   integrity sha1-tyonTRsTeRBKAFC2OyB9xT/lb5k=
 
-grommet-icons@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/grommet-icons/-/grommet-icons-4.4.0.tgz#6503a33ca29e3c9d89ba56ef1b2bc786222e62a7"
-  integrity sha512-uOc3rsgIBVOm/iuN8dj2lKuBq0uhIPYxH84zDoY0jrJZLjcVH1bHUQLlv0R/e9oB/pCFYEBse1mnvps+f3ylmw==
-  dependencies:
-    grommet-styles "^0.2.0"
-
-grommet-styles@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/grommet-styles/-/grommet-styles-0.2.0.tgz#b2eac2b7e2747cb523434d21728ce5234f8ce4f4"
-  integrity sha512-0OMSYuGeyifYKpg4Gv2HzL8rUdd0ddnJ5LbCBKgDuloC71XIwr9g/Fxa6rs737MbPV7OZ4pEm4wvrjH4epzf1A==
-
 gud@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
