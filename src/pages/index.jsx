@@ -8,6 +8,22 @@ import Icon from '../components/Icon'
 import Page from '../components/Page'
 import Text from '../components/Text'
 
+const SOCIAL_ANCHORS_LIST = [
+	{ icon: 'dribbble', url: '//dribbble.com/LRNZ09' },
+	{ icon: 'github-alt', url: '//github.com/LRNZ09' },
+	{
+		icon: 'google-play',
+		url: '//play.google.com/store/apps/developer?id=LRNZ09',
+	},
+	{ icon: 'instagram', url: '//instagram.com/lrnz09' },
+	{ icon: 'lastfm-square', url: '//www.last.fm/user/LRNZ09' },
+	{ icon: 'linkedin', url: '//linkedin.com/in/lrnz09' },
+	{ icon: 'medium', url: '//medium.com/@LRNZ09' },
+	{ icon: 'spotify', url: '//open.spotify.com/user/lrnz09' },
+	{ icon: 'twitch', url: '//www.twitch.tv/LRNZ09' },
+	{ icon: 'twitter', url: '//twitter.com/LRNZ09' },
+]
+
 const HomePage = () => (
 	<Page>
 		<Text forwardedAs="h1">Hello</Text>
@@ -58,53 +74,16 @@ const HomePage = () => (
 					<Box p={16}>
 						<Text forwardedAs="h4">Social</Text>
 
-						<Anchor
-							href="//dribbble.com/LRNZ09"
-							mr={4}
-							rel="noopener"
-							target="_blank"
-						>
-							<Icon name="dribbble" />
-						</Anchor>
-						<Anchor
-							href="//instagram.com/lrnz09"
-							mr={4}
-							rel="noopener"
-							target="_blank"
-						>
-							<Icon name="instagram" />
-						</Anchor>
-						<Anchor
-							href="//www.last.fm/user/LRNZ09"
-							mr={4}
-							rel="noopener"
-							target="_blank"
-						>
-							<Icon name="lastfm-square" />
-						</Anchor>
-						<Anchor
-							href="//linkedin.com/in/lrnz09"
-							mr={4}
-							rel="noopener"
-							target="_blank"
-						>
-							<Icon name="linkedin" />
-						</Anchor>
-						<Anchor
-							href="//medium.com/@LRNZ09"
-							mr={4}
-							target="_blank"
-							rel="noopener"
-						>
-							<Icon name="medium" />
-						</Anchor>
-						<Anchor
-							href="//twitter.com/LRNZ09"
-							target="_blank"
-							rel="noopener"
-						>
-							<Icon name="twitter" />
-						</Anchor>
+						{SOCIAL_ANCHORS_LIST.map(({ icon, url }) => (
+							<Anchor
+								href={url}
+								mr={4}
+								rel="noopener"
+								target="_blank"
+							>
+								<Icon name={icon} />
+							</Anchor>
+						))}
 					</Box>
 				</Box>
 			</Box>
