@@ -77,6 +77,7 @@ const HomePage = () => (
 						{SOCIAL_ANCHORS_LIST.map(({ icon, url }) => (
 							<Anchor
 								href={url}
+								key={icon}
 								mr={4}
 								rel="noopener"
 								target="_blank"

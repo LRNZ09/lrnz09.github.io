@@ -16,19 +16,16 @@
         "@fortawesome/react-fontawesome": "^0.1.8",
         "@xstyled/styled-components": "^1.17.0",
         "babel-plugin-styled-components": "^1.10.7",
+        "color": "^3.1.2",
         "gatsby": "^2.19.22",
         "gatsby-plugin-react-helmet": "^3.1.22",
         "gatsby-plugin-styled-components": "^3.1.19",
-        "gatsby-plugin-typography": "^2.3.22",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
         "react-helmet": "^5.2.1",
         "react-is": "^16.12.0",
-        "react-typography": "^0.16.19",
         "reflexbox": "^4.0.6",
-        "styled-components": "^5.0.1",
-        "typography": "^0.16.19",
-        "typography-theme-moraga": "^0.16.19"
+        "styled-components": "^5.0.1"
     },
     "devDependencies": {
         "gh-pages": "^2.2.0",

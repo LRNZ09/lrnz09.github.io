@@ -2,17 +2,10 @@
  * Configure your Gatsby site with this file.
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ *
+ * @format
  */
 
 module.exports = {
-    plugins: [
-        'gatsby-plugin-react-helmet',
-        'gatsby-plugin-styled-components',
-        {
-            resolve: 'gatsby-plugin-typography',
-            options: {
-                pathToConfigModule: 'src/utils/typography',
-            },
-        },
-    ],
+	plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 }

@@ -2,7 +2,12 @@
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { ColorModeProvider, ThemeProvider } from '@xstyled/styled-components'
+import {
+	ColorModeProvider,
+	ThemeProvider,
+	createGlobalStyle,
+} from '@xstyled/styled-components'
+import Color from 'color'
 import React from 'react'
 
 const theme = {
@@ -14,26 +19,54 @@ const theme = {
 		xl: 1200,
 	},
 	colors: {
-		text: '#000',
-		background: '#fff',
-		primary: '#07c',
+		background: 'white',
+		text: 'black',
+		link: '#4392F1',
+		linkHover: Color('#4392F1')
+			.lighten(0.2)
+			.toString(),
 		modes: {
 			dark: {
-				text: '#fff',
-				background: '#000',
-				primary: '#0cf',
+				background: '#121212',
+				text: 'white',
 			},
 		},
 	},
-	defaultColorModeName: 'dark',
+	// defaultColorModeName: 'dark',
 	initialColorModeName: 'light',
 }
 
 library.add(fab)
 
+export const GlobalStyle = createGlobalStyle`
+  html, body {
+	background-color: background;
+	color: text;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.3s ease;
+	height: 100%;
+  }
+  h1, h2, h3 {
+	  text-transform: uppercase;
+  }
+  a {
+	color: link;
+  }
+  a:hover {
+	color: linkHover;
+  }
+`
+
 const wrapRootElement = ({ element }) => (
 	<ThemeProvider theme={theme}>
-		<ColorModeProvider>{element}</ColorModeProvider>
+		<ColorModeProvider>
+			<GlobalStyle />
+
+			{element}
+		</ColorModeProvider>
 	</ThemeProvider>
 )
 
