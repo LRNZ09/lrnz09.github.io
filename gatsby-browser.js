@@ -19,8 +19,8 @@ const theme = {
 		xl: 1200,
 	},
 	colors: {
-		background: 'white',
-		text: 'black',
+		background: '#FFFFFF',
+		text: '#000000',
 		link: '#4392F1',
 		linkHover: Color('#4392F1')
 			.lighten(0.2)
@@ -28,7 +28,7 @@ const theme = {
 		modes: {
 			dark: {
 				background: '#121212',
-				text: 'white',
+				text: '#FFFFFF',
 			},
 		},
 	},
@@ -38,19 +38,17 @@ const theme = {
 
 library.add(fab)
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   html, body {
 	background-color: background;
 	color: text;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	margin: 0;
-	padding: 0;
 	transition: background-color 0.3s ease;
 	height: 100%;
   }
   h1, h2, h3 {
-	  text-transform: uppercase;
+	text-transform: uppercase;
   }
   a {
 	color: link;

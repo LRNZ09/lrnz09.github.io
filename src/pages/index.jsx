@@ -18,8 +18,12 @@ const SOCIAL_ANCHORS_LIST = [
 	{ icon: 'instagram', url: '//instagram.com/lrnz09' },
 	{ icon: 'lastfm-square', url: '//www.last.fm/user/LRNZ09' },
 	{ icon: 'linkedin', url: '//linkedin.com/in/lrnz09' },
-	{ icon: 'medium', url: '//medium.com/@LRNZ09' },
+	{ icon: 'medium-m', url: '//medium.com/@LRNZ09' },
+	{ icon: 'pinterest', url: '//www.pinterest.com/lrnz09' },
+	{ icon: 'playstation', url: '//my.playstation.com/profile/LRNZ09-' },
+	{ icon: 'reddit', url: '//www.reddit.com/user/LRNZ09' },
 	{ icon: 'spotify', url: '//open.spotify.com/user/lrnz09' },
+	{ icon: 'stack-overflow', url: '//stackoverflow.com/users/story/5436797' },
 	{ icon: 'twitch', url: '//www.twitch.tv/LRNZ09' },
 	{ icon: 'twitter', url: '//twitter.com/LRNZ09' },
 ]
