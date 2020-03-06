@@ -2,7 +2,7 @@
     "name": "lrnz09.github.io",
     "private": true,
     "description": "My personal website",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "license": "MIT",
     "scripts": {
         "clean": "gatsby clean",
@@ -13,11 +13,11 @@
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.27",
         "@fortawesome/free-brands-svg-icons": "^5.12.1",
-        "@fortawesome/react-fontawesome": "^0.1.8",
+        "@fortawesome/react-fontawesome": "^0.1.9",
         "@xstyled/styled-components": "^1.17.0",
         "babel-plugin-styled-components": "^1.10.7",
         "color": "^3.1.2",
-        "gatsby": "^2.19.26",
+        "gatsby": "^2.19.29",
         "gatsby-plugin-react-helmet": "^3.1.22",
         "gatsby-plugin-styled-components": "^3.1.19",
         "react": "^16.12.0",
