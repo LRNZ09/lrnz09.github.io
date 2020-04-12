@@ -1,0 +1,26 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:prettier/recommended",
+		"prettier",
+		"prettier/react"
+	],
+	"parser": "@typescript-eslint/parser",
+	"root": true,
+	"rules": {
+		"react/no-unescaped-entities": "warn"
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
+}
