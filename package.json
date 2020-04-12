@@ -1,8 +1,7 @@
 {
 	"name": "lrnz09.github.io",
-	"private": true,
 	"description": "My personal website",
-	"version": "1.2.2",
+	"version": "1.4.0",
 	"license": "MIT",
 	"scripts": {
 		"clean": "gatsby clean",
@@ -11,25 +10,24 @@
 		"start": "gatsby develop"
 	},
 	"dependencies": {
+		"@emotion/core": "^10.0.28",
+		"@emotion/styled": "^10.0.27",
 		"@fortawesome/fontawesome-svg-core": "^1.2.27",
 		"@fortawesome/free-brands-svg-icons": "^5.12.1",
 		"@fortawesome/react-fontawesome": "^0.1.9",
-		"@xstyled/styled-components": "^1.17.0",
-		"babel-plugin-styled-components": "^1.10.7",
+		"@xstyled/emotion": "^1.17.0",
 		"color": "^3.1.2",
 		"gatsby": "^2.19.29",
 		"gatsby-plugin-react-helmet": "^3.1.22",
-		"gatsby-plugin-styled-components": "^3.1.19",
 		"react": "^16.12.0",
 		"react-dom": "^16.12.0",
-		"react-helmet": "^5.2.1",
-		"react-is": "^16.12.0",
-		"reflexbox": "^4.0.6",
-		"styled-components": "^5.0.1"
+		"react-helmet": "^5.2.1"
 	},
 	"devDependencies": {
+		"@types/react": "^16.9.34",
 		"gh-pages": "^2.2.0",
-		"prettier": "^1.19.1"
+		"prettier": "^1.19.1",
+		"typescript": "^3.8.3"
 	},
 	"repository": {
 		"type": "git",
