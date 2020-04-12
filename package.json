@@ -1,41 +1,41 @@
 {
-    "name": "lrnz09.github.io",
-    "private": true,
-    "description": "My personal website",
-    "version": "1.2.2",
-    "license": "MIT",
-    "scripts": {
-        "clean": "gatsby clean",
-        "deploy": "gatsby build && gh-pages -a -t -b master -d public",
-        "serve": "gatsby serve",
-        "start": "gatsby develop"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^1.2.27",
-        "@fortawesome/free-brands-svg-icons": "^5.12.1",
-        "@fortawesome/react-fontawesome": "^0.1.9",
-        "@xstyled/styled-components": "^1.17.0",
-        "babel-plugin-styled-components": "^1.10.7",
-        "color": "^3.1.2",
-        "gatsby": "^2.19.29",
-        "gatsby-plugin-react-helmet": "^3.1.22",
-        "gatsby-plugin-styled-components": "^3.1.19",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "react-helmet": "^5.2.1",
-        "react-is": "^16.12.0",
-        "reflexbox": "^4.0.6",
-        "styled-components": "^5.0.1"
-    },
-    "devDependencies": {
-        "gh-pages": "^2.2.0",
-        "prettier": "^1.19.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/LRNZ09/lrnz09.github.io"
-    },
-    "bugs": {
-        "url": "https://github.com/LRNZ09/lrnz09.github.io/issues"
-    }
+	"name": "lrnz09.github.io",
+	"private": true,
+	"description": "My personal website",
+	"version": "1.2.2",
+	"license": "MIT",
+	"scripts": {
+		"clean": "gatsby clean",
+		"deploy": "gatsby build && gh-pages -a -t -b master -d public",
+		"serve": "gatsby serve",
+		"start": "gatsby develop"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.27",
+		"@fortawesome/free-brands-svg-icons": "^5.12.1",
+		"@fortawesome/react-fontawesome": "^0.1.9",
+		"@xstyled/styled-components": "^1.17.0",
+		"babel-plugin-styled-components": "^1.10.7",
+		"color": "^3.1.2",
+		"gatsby": "^2.19.29",
+		"gatsby-plugin-react-helmet": "^3.1.22",
+		"gatsby-plugin-styled-components": "^3.1.19",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-helmet": "^5.2.1",
+		"react-is": "^16.12.0",
+		"reflexbox": "^4.0.6",
+		"styled-components": "^5.0.1"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.2.0",
+		"prettier": "^1.19.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LRNZ09/lrnz09.github.io"
+	},
+	"bugs": {
+		"url": "https://github.com/LRNZ09/lrnz09.github.io/issues"
+	}
 }
