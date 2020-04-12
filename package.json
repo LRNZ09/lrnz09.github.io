@@ -12,7 +12,6 @@
 	},
 	"dependencies": {
 		"@react95/core": "^2.7.0",
-		"color": "^3.1.2",
 		"gatsby": "^2.19.29",
 		"gatsby-plugin-offline": "^3.1.2",
 		"gatsby-plugin-react-helmet": "^3.1.22",
