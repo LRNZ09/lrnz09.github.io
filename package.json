@@ -1,7 +1,7 @@
 {
 	"name": "lrnz09.github.io",
 	"description": "My personal website",
-	"version": "1.4.1",
+	"version": "2.0.0",
 	"license": "MIT",
 	"scripts": {
 		"clean": "gatsby clean",
@@ -15,7 +15,6 @@
 		"gatsby": "^2.19.29",
 		"gatsby-plugin-offline": "^3.1.2",
 		"gatsby-plugin-react-helmet": "^3.1.22",
-		"gatsby-plugin-styled-components": "^3.2.1",
 		"gatsby-plugin-typescript": "^2.3.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
@@ -31,7 +30,6 @@
 		"@types/styled-components": "^5.0.1",
 		"@typescript-eslint/eslint-plugin": "^2.27.0",
 		"@typescript-eslint/parser": "^2.27.0",
-		"babel-plugin-styled-components": "^1.10.7",
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.10.1",
 		"eslint-plugin-prettier": "^3.1.2",
