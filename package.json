@@ -1,11 +1,12 @@
 {
 	"name": "lrnz09.github.io",
 	"description": "My personal website",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"license": "MIT",
 	"scripts": {
+		"build": "gatsby build",
 		"clean": "gatsby clean",
-		"deploy": "gatsby build && gh-pages -a -t -b master -d public",
+		"deploy": "yarn build && gh-pages -a -t -b master -d public",
 		"lint": "eslint --ext=js,jsx,ts,tsx --fix .",
 		"serve": "gatsby serve",
 		"start": "gatsby develop"
