@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import Page from '../components/Page'
+import Page from '../components/page'
 
 const TermsPage: React.FC = () => {
 	const title = 'Terms of Service'

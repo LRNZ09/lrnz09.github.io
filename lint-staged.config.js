@@ -1,5 +1,5 @@
 /** @format */
 
 module.exports = {
-	'**/*': 'yarn lint',
+	'*.{js,json,jsx,ts,tsx}': 'eslint --fix',
 }

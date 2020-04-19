@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import Page from '../components/Page'
+import Page from '../components/page'
 
 const PrivacyPolicyPage: React.FC = () => {
 	const title = 'Privacy Policy'

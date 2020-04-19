@@ -3,6 +3,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import Box from './box'
 
 const Page: React.FC = ({ children, title = 'Lorenzo Pieri' }) => (
 	<>
@@ -10,7 +11,7 @@ const Page: React.FC = ({ children, title = 'Lorenzo Pieri' }) => (
 			<title>{title}</title>
 		</Helmet>
 
-		{children}
+		<Box>{children}</Box>
 	</>
 )
 
