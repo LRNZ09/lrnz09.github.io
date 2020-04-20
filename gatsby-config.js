@@ -9,13 +9,11 @@
 module.exports = {
 	plugins: [
 		{
-			resolve: `gatsby-plugin-google-analytics`,
+			resolve: 'gatsby-plugin-segment-js',
 			options: {
-				anonymize: true,
-				head: true,
-				respectDNT: true,
-				siteSpeedSampleRate: 10,
-				trackingId: 'UA-164007408-1',
+				// devKey: 'SEGMENT_DEV_WRITE_KEY',
+				prodKey: 'dJDoEfUVScfsJ1SezkvxdjeOq27xn6zP',
+				trackPage: true,
 			},
 		},
 		'gatsby-plugin-offline',

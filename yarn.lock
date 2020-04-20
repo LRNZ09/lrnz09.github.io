@@ -4960,14 +4960,6 @@ gatsby-page-utils@^0.1.1:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-google-analytics@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.2.4.tgz#d03ae7b8088240f283a82d5ac5f843ee636a0f32"
-  integrity sha512-PupngEov6tod6AOybZMq4Iaaeo6MmzgwBcWljMWLetO5ugPV5rAkTSLJsaINk8wzImQsIDNMBg2GIaU94g1vJw==
-  dependencies:
-    "@babel/runtime" "^7.8.7"
-    minimatch "3.0.4"
-
 gatsby-plugin-offline@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.1.2.tgz#44e53459a3d04ca1fc432aee69c7c54358d2b4c6"
@@ -5000,6 +4992,11 @@ gatsby-plugin-react-helmet@^3.1.22:
   integrity sha512-mPd7gefGIxqAuxFJgDuttR9+DnRLKLrCh61ND1iLSeOp9GoYS/qH8Rhka6fkpmBXOtUVyujzaUthhB/ll/a4RA==
   dependencies:
     "@babel/runtime" "^7.8.7"
+
+gatsby-plugin-segment-js@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-segment-js/-/gatsby-plugin-segment-js-3.1.0.tgz#df467aec38555a9cf71bacd34352b2dfbaba3687"
+  integrity sha512-oBcIY+riNehfyQXp8PEGVQTz/VPt/+k2aXCh/bNZSR4HhjEAXafcSCReS2xzs/3IJRa3gH0+NOZvRU8peXDb/w==
 
 gatsby-plugin-styled-components@^3.2.1:
   version "3.2.1"
