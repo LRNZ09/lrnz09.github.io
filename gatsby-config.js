@@ -8,17 +8,22 @@
 
 module.exports = {
 	plugins: [
+		'gatsby-plugin-typescript',
 		{
-			resolve: 'gatsby-plugin-segment-js',
+			resolve: 'gatsby-plugin-manifest',
 			options: {
-				// devKey: 'SEGMENT_DEV_WRITE_KEY',
-				prodKey: 'dJDoEfUVScfsJ1SezkvxdjeOq27xn6zP',
-				trackPage: true,
+				background_color: '#55AAAA',
+				display: 'minimal-ui',
+				icon: 'src/assets/images/star.png',
+				lang: 'en',
+				name: 'Lorenzo Pieri',
+				short_name: 'LRNZ09',
+				start_url: '/',
+				theme_color: '#000E7A',
 			},
 		},
-		'gatsby-plugin-offline',
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
-		'gatsby-plugin-typescript',
+		'gatsby-plugin-offline',
 	],
 }
