@@ -1,7 +1,7 @@
 {
 	"name": "lrnz09.github.io",
 	"description": "My personal website",
-	"version": "2.3.1",
+	"version": "2.4.0",
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
