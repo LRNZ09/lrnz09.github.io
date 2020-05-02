@@ -1,5 +1,5 @@
 /** @format */
 
 module.exports = {
-	'*.{js,json,jsx,ts,tsx}': 'eslint --fix',
+	'*.{js,jsx,ts,tsx}': 'eslint --fix',
 }
