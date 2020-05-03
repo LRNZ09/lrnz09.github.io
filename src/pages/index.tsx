@@ -117,7 +117,7 @@ const HomePage: React.FC = () => {
 						</List.Item>
 						<List.Item
 							as='a'
-							href='mailto:me@lorenzopieri.dev'
+							href='mailto:hello@lorenzopieri.dev'
 							icon='mail'
 							target='_blank'
 						>
