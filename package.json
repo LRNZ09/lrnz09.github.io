@@ -41,7 +41,7 @@
   },
   "scripts": {
     "build": "next build",
-    "deploy": "yarn build && gh-pages --add --branch master --dist build",
+    "deploy": "yarn build && next export && gh-pages --add --branch master --dist out",
     "dev": "next dev",
     "lint": "eslint --ext=js,jsx .",
     "lint:fix": "eslint --ext=js,jsx --fix .",
