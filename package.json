@@ -1,55 +1,52 @@
 {
-	"bugs": {
-		"url": "https://github.com/LRNZ09/lrnz09.github.io/issues"
-	},
-	"dependencies": {
-		"@react95/core": "^2.7.0",
-		"gatsby": "^2.21.9",
-		"gatsby-plugin-manifest": "^2.4.1",
-		"gatsby-plugin-offline": "^3.2.0",
-		"gatsby-plugin-react-helmet": "^3.3.0",
-		"gatsby-plugin-styled-components": "^3.3.0",
-		"gatsby-plugin-typescript": "^2.4.0",
-		"prop-types": "^15.7.2",
-		"react": "^16.12.0",
-		"react-dom": "^16.12.0",
-		"react-helmet": "^6.0.0",
-		"react-is": "^16.13.1",
-		"styled-components": "^5.1.0"
-	},
-	"description": "website",
-	"devDependencies": {
-		"@types/node": "^13.13.4",
-		"@types/react": "^16.9.34",
-		"@types/react-dom": "^16.9.7",
-		"@types/styled-components": "^5.1.0",
-		"@typescript-eslint/eslint-plugin": "^2.30.0",
-		"@typescript-eslint/parser": "^2.30.0",
-		"babel-plugin-styled-components": "^1.10.7",
-		"eslint": "^6.8.0",
-		"eslint-config-prettier": "^6.11.0",
-		"eslint-plugin-prettier": "^3.1.3",
-		"eslint-plugin-react": "^7.19.0",
-		"gh-pages": "^2.2.0",
-		"husky": "^4.2.5",
-		"lint-staged": "^10.2.2",
-		"prettier": "^2.0.5",
-		"typescript": "^3.8.3"
-	},
-	"license": "MIT",
-	"name": "lrnz09.github.io",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/LRNZ09/lrnz09.github.io"
-	},
-	"scripts": {
-		"build": "gatsby build",
-		"clean": "gatsby clean",
-		"deploy": "gatsby build && gh-pages -a -t -b master -d public",
-		"lint": "eslint --ext=js,jsx,ts,tsx .",
-		"lint:fix": "eslint --ext=js,jsx,ts,tsx --fix .",
-		"serve": "gatsby serve",
-		"start": "gatsby develop"
-	},
-	"version": "2.5.2"
+  "bugs": {
+    "url": "https://github.com/LRNZ09/lrnz09.github.io/issues"
+  },
+  "description": "Just my personal website",
+  "private": true,
+  "dependencies": {
+    "@react95/core": "^2.10.4",
+    "@react95/icons": "^0.3.0",
+    "next": "9.5.1",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-is": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "gh-pages": "^3.1.0",
+    "husky": "^4.2.5",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "lint-staged": "^10.2.11",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.4.0",
+    "next-optimized-images": "^2.6.2",
+    "next-transpile-modules": "^4.0.2",
+    "prettier": "^2.0.5",
+    "react-test-renderer": "^16.13.1",
+    "webp-loader": "^0.6.0"
+  },
+  "license": "MIT",
+  "name": "lrnz09.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LRNZ09/lrnz09.github.io"
+  },
+  "scripts": {
+    "build": "next build",
+    "deploy": "yarn build && gh-pages --add --branch master --dist build",
+    "dev": "next dev",
+    "lint": "eslint --ext=js,jsx .",
+    "lint:fix": "eslint --ext=js,jsx --fix .",
+    "serve": "next serve",
+    "start": "next start"
+  },
+  "version": "2.5.2"
 }
