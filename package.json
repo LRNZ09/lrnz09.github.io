@@ -48,5 +48,5 @@
     "serve": "next serve",
     "start": "next start"
   },
-  "version": "3.0.0"
+  "version": "3.0.1"
 }
