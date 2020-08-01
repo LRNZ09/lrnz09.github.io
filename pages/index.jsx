@@ -44,7 +44,7 @@ const SOCIAL_ANCHORS_LIST = [
   {
     icon: 'defrag',
     name: 'StackOverflow',
-    url: '//stackoverflow.com/users/story/5436797',
+    url: '//stackoverflow.com/story/lrnz09',
   },
   {
     icon: 'textchat',
