@@ -26,6 +26,7 @@ const App = ({ Component, pageProps }) => (
       <GlobalStyle />
       <CustomGlobalStyle />
 
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />
     </ThemeProvider>
   </>

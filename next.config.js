@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 const withPlugins = require('next-compose-plugins')
 
 const fonts = require('next-fonts')

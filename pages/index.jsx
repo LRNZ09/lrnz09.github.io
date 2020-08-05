@@ -5,7 +5,7 @@ import IconBox from '../components/icon-box'
 import IconText from '../components/icon-text'
 import Page from '../components/page'
 
-const MODAL_DEFAULT_POSITION = { x: 60, y: 60 }
+const MODAL_DEFAULT_POSITION = { x: 56, y: 56 }
 
 const SOCIAL_ANCHORS_LIST = [
   // 	{ icon: 'dribbble', url: '//dribbble.com/LRNZ09' },
@@ -77,12 +77,33 @@ const Home = () => {
 
       {showAboutModal && (
         <Modal
+          closeModal={handleCloseAboutModal}
           defaultPosition={MODAL_DEFAULT_POSITION}
           height={100}
           icon='info_bubble'
+          menu={[
+            {
+              name: 'File',
+              list: (
+                <List>
+                  <List.Item onClick={handleCloseAboutModal}>Exit</List.Item>
+                </List>
+              ),
+            },
+            // {
+            //   name: 'Edit',
+            //   list: (
+            //     <List>
+            //       <List.Item onClick={}>Copy</List.Item>
+            //       <List.Item onClick={}>
+            //         Select all
+            //       </List.Item>
+            //     </List>
+            //   ),
+            // },
+          ]}
           title='About'
           width={250}
-          closeModal={handleCloseAboutModal}
         >
           <p>
             Hi, my name is Lorenzo Pieri and I'm a software developer currently

@@ -5,16 +5,18 @@ import Box from './box'
 
 const PageProps = {
   children: PropTypes.node.isRequired,
+  description: PropTypes.string,
   title: PropTypes.string,
 }
 
-const Page = ({ children, title = 'Lorenzo Pieri' }) => (
+const Page = ({ children, description = null, title = 'Lorenzo Pieri' }) => (
   <>
     <Head>
       <title>{title}</title>
+      <meta name='description' content={description || title} />
     </Head>
 
-    <Box>{children}</Box>
+    <Box as='main'>{children}</Box>
   </>
 )
 
