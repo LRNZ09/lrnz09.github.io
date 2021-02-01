@@ -46,12 +46,12 @@
   },
   "scripts": {
     "build": "next build",
-    "deploy": "yarn build && next export && gh-pages --add --branch master --dist out",
     "dev": "next dev",
+    "export": "next export -o docs",
     "lint": "eslint --ext=js,jsx .",
     "lint:fix": "eslint --ext=js,jsx --fix .",
     "serve": "next serve",
     "start": "next start"
   },
-  "version": "3.2.0"
+  "version": "3.2.1"
 }
