@@ -1,6 +1,6 @@
 .cache
+.next
 .vscode
-build
 coverage
-out
+docs
 public

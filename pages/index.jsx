@@ -79,7 +79,7 @@ const Home = () => {
         <Modal
           closeModal={handleCloseAboutModal}
           defaultPosition={MODAL_DEFAULT_POSITION}
-          height={100}
+          height={116}
           icon='info_bubble'
           menu={[
             {
@@ -103,11 +103,11 @@ const Home = () => {
             // },
           ]}
           title='About'
-          width={250}
+          width={208}
         >
           <p>
-            Hi, my name is Lorenzo Pieri and I'm a software developer currently
-            working for{' '}
+            Hi, my name is Lorenzo Pieri and I&#39;m a senior software developer
+            currently working for{' '}
             <a
               href='//corporate.shopfully.com/'
               rel='noopener noreferrer'
