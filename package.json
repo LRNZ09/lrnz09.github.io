@@ -46,8 +46,9 @@
   },
   "scripts": {
     "build": "next build",
+    "deploy": "yarn build && yarn export",
     "dev": "next dev",
-    "export": "next export -o docs",
+    "export": "next export -o docs && touch docs/.nojekyll && echo lorenzopieri.dev > docs/CNAME",
     "lint": "eslint --ext=js,jsx .",
     "lint:fix": "eslint --ext=js,jsx --fix .",
     "serve": "next serve",
