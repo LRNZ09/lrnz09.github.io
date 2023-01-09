@@ -20,6 +20,7 @@ const App = ({ Component, pageProps }) => (
   <>
     <Head>
       <link rel='icon' type='image/x-icon' href={Icons.user} />
+      <meta name='cf-2fa-verify' content='8da19b3f06c2a29' />
     </Head>
 
     <ThemeProvider>

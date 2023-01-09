@@ -54,5 +54,6 @@
     "serve": "next serve",
     "start": "next start"
   },
-  "version": "3.3.0"
+  "version": "3.3.0",
+  "packageManager": "yarn@1.22.19"
 }
