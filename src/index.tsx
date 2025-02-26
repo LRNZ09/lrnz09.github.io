@@ -1,5 +1,6 @@
 import '@react95/core/GlobalStyle';
 import '@react95/core/themes/win95.css';
+import '@react95/icons/icons.css';
 
 import preactLogo from './assets/preact.svg';
 import './style.css';
