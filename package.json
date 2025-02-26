@@ -10,6 +10,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@react95/core": "9.2.1",
 		"preact": "^10.25.3",
 		"preact-iso": "2.9.0",
 		"preact-render-to-string": "6.5.13"

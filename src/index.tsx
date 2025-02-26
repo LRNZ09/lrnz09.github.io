@@ -1,4 +1,5 @@
-import { hydrate, prerender as ssr } from 'preact-iso';
+import '@react95/core/GlobalStyle';
+import '@react95/core/themes/win95.css';
 
 import preactLogo from './assets/preact.svg';
 import './style.css';
