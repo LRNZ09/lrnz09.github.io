@@ -1,6 +1,14 @@
 [![Checked with Biome](https://img.shields.io/badge/Checked_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev)
 
-## Getting Started
+---
+
+# 🐬 Welcome
+
+*Where retro meets futuristic — an immersive passage into vaporwave aesthetics.*
+
+![A pastel-hued indoor pool area with shimmering water reflections on the walls, evoking a dreamy, retro ambiance](./assets/banner.gif)
+
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
