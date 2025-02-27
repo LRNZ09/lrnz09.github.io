@@ -7,6 +7,8 @@
 
 *Where retro meets futuristic — an immersive passage into vaporwave aesthetics.*
 
+![A pastel-hued indoor pool area with shimmering water reflections on the walls, evoking a dreamy, retro ambiance](./assets/banner.gif)
+
 ## Table of Contents
 
 - [Overview](#overview)
