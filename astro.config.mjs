@@ -1,5 +1,9 @@
+import fs from 'node:fs';
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+const domain = fs.readFileSync('./public/CNAME');
+
+export default defineConfig({
+	site: `https://${domain}`,
+});
