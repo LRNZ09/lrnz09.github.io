@@ -1,5 +1,9 @@
 ---
+import { db } from 'astro:db';
 import background from '../assets/background.svg';
+import { Social } from 'astro:db';
+
+const socials = await db.select().from(Social).all();
 ---
 
 <div id="container">
@@ -7,10 +11,12 @@ import background from '../assets/background.svg';
 	<main>
 		<section id="hero">
 			<h1>
-				Work in progress...
+				Find me on
 			</h1>
 			<section id="links">
-				<a class="button" href="https://linkedin.com/in/lorenzo-pieri">Find me on LinkedIn</a>
+				{socials.map(social => (
+					<a class="button" href={social.url}>{social.name}</a>
+				))}
 			</section>
 		</section>
 	</main>
